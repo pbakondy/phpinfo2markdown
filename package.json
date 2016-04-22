@@ -24,5 +24,13 @@
   },
   "devDependencies": {
     "eslint": "^2.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbakondy/phpinfo2markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pbakondy/phpinfo2markdown/issues"
+  },
+  "homepage": "https://github.com/pbakondy/phpinfo2markdown#readme"
 }
