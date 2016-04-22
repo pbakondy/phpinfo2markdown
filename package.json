@@ -1,0 +1,28 @@
+{
+  "name": "phpinfo2markdown",
+  "version": "1.0.0",
+  "description": "Convert phpinfo() to markdown",
+  "main": "index.js",
+  "bin": {
+    "phpinfo2markdown": "cli.js"
+  },
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "node_modules/.bin/eslint *.js"
+  },
+  "keywords": [
+    "phpinfo",
+    "markdown",
+    "converter",
+    "cli"
+  ],
+  "author": "Peter Bakondy <pbakondy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0"
+  }
+}
